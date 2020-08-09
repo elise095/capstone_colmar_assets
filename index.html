@@ -6,7 +6,7 @@
   <title>Colmar Academy</title>
   <link rel="stylesheet" href="resources/css/reset.css">
   <link rel="stylesheet" href="resources/css/style.css">
-  <link href="<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
   <main>
@@ -59,25 +59,50 @@
     </section>
 
   <!-- ARTICLES -->
-    <section id="aricles">
-      <div class="desktop">
-        <img src="" alt="">
-        <h1>It doesn't hurt to keep practicing</h1>
-        <blockquote>
-          ""
-          <cite>Emanuel, Sr Strategist at Hiring.com</cite>
-        </blockquote>
-        <ul>
+    <section id="articles">
+        <div class="u_mobilehidden u_width-60 desktop">
+          <img src="resources/images/information-main.jpg" alt="a black guy is reading">
+          <h1 class="u_bold">It doesn't hurt to keep practicing</h1>
+          <blockquote>
+            "Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
+            </blockquote>
+          <cite class="u_bold">Emanuel, Sr Strategist at Hiring.com</cite>
+        </div>
+        <ul class="u_width-40 articles-cards">
           <li>
-            <picture>
+            <picture class="u_width-35">
               <source media="(min-width:750px)" srcset="resources/images/information-orientation.jpg">
               <source media="(max-width:749px)" srcset="resources/images/information-orientation-mobile.jpg">
-              <img src="resources/images/information-orientation.jpg" alt="" style="width:auto;">
+              <img src="resources/images/information-orientation.jpg" alt="pavement" style="width:auto;">
             </picture>
-            <div class="card-text">
-              <h3>Orientation date</h3>
-              <p>Tue 10/11 & Wed 10/12: 8am-</p>
-              <a href="">Read more</a>
+            <div class="u_width-65 card-text">
+              <h3 class="u_bold">Orientation date</h3>
+              <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+              <a class="blue" href="">Read more</a>
+            </div>
+          </li>
+          <li>
+            <picture class="u_width-35">
+              <source media="(min-width:750px)" srcset="resources/images/information-campus.jpg">
+              <source media="(max-width:749px)" srcset="resources/images/information-campus-mobile.jpg">
+              <img src="resources/images/information-campus.jpg" alt="" style="width:auto;">
+            </picture>
+            <div class="u_width-65 card-text">
+              <h3 class="u_bold">Our campus</h3>
+              <p>Find which campus is close by you</p>
+              <a class="blue" href="">Read more</a>
+            </div>
+          </li>
+          <li>
+            <picture class="u_width-35">
+              <source media="(min-width:750px)" srcset="resources/images/information-guest-lecture.jpg">
+              <source media="(max-width:749px)" srcset="resources/images/information-guest-lecture-mobile.jpg">
+              <img src="resources/images/information-guest-lecture.jpg" alt="" style="width:auto;">
+            </picture>
+            <div class="u_width-65 card-text">
+              <h3 class="u_bold">Our guest lecture</h3>
+              <p>Join keynote with Oliver Sack about music in medical treatment</p>
+              <a class="blue" href="">Read more</a>
             </div>
           </li>
         </ul>

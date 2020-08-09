@@ -1,33 +1,33 @@
 /* UTILITY CLASSES */
 .u_bold{font-weight: bold;}
 .u_light{font-weight: lighter;}
-.u_grey{color: rgb(171, 168, 161)}
-.u_blue{color: rgb(89, 175, 255);}
+.u_grey{color: #aba8ab;}
   /* Mobile */
     @media only screen and (max-width: 749px){
       .u_mobilehidden{display: none;}
-      
     }
   /* Desktop */
     @media only screen and (min-width: 750px){
       .u_desktophidden{display: none;}
       .u_width-40{width: 40%;}
       .u_width-60{width: 60%;}
+      .u_width-35{width: 35%;}
+      .u_width-65{width: 35%;}
     }
 
 /* ENTIRE CODE STUFF */
 body{
   font-family: 'Helvetica', sans-serif;
-  color:rgb(61, 61, 61);
+  color:#3d3d3d;
 }
 a:link{
-  color:rgb(61, 61, 61);
+  color:#3d3d3d;
 }
 a:visited{
-  color:rgb(61, 61, 61);
+  color:#3d3d3d;
 }
 a:hover {
-  color: rgb(128, 122, 122);
+  color: #807a7a;
 }
 
 /* NAVBAR */
@@ -51,7 +51,7 @@ header div{
   align-items: center;
 }
 .logo-text h1{
-  color: rgb(61, 61, 61);
+  color: #3d3d3d;
   font-size: 25px;
   font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
@@ -130,14 +130,70 @@ header div{
 
 /* ARTICLES */
 #articles{
-  padding: 16px 16px 32px;
-}
-#articles li{
-  padding: 0 0 24px;
+  display: flex;
+  justify-content: center;
+  padding: 16px 16px;
 }
 #articles picture{
   display: block;
   max-width: 100%;
+}
+.card-text{
+  padding: 16px 16px;
+  line-height: 32px;
+}
+.card-text h3{
+  font-size: 20px;
+}
+.blue{
+  color: #59afff !important;
+}
+.blue:hover{
+  color: #99ccfc !important
+}
+
+@media only screen and (min-width: 750px){
+  #articles{
+    padding: 0 0;
+  }
+  .desktop{
+    padding: 32px 24px;
+    border: 1px solid #d4d4d4;
+  }
+  .desktop h1{
+    padding: 32px 0 24px 0;
+    font-size: 25px;
+  }
+  blockquote{
+    line-height: 24px;
+    padding-bottom: 32px;
+  }
+
+  .articles-cards{
+    padding: 16px 0;
+  }
+  .card-text{
+    width: 65%;
+    line-height: 25px;
+  }
+  .card-text p{
+    padding: 8px 0;
+  }
+  #articles img{
+    display: block;
+    max-width: 100%;
+    }
+  #articles li{
+    display: flex;
+    align-items: center;
+  }
+  #articles ul li{
+    padding: 16px 16px;
+    border: 1px solid #d4d4d4;
+  }
+  #articles ul li:hover{
+    background-color: #d3d3d3;
+  }
 }
 /*START LEARNING */
 
@@ -149,7 +205,7 @@ header div{
   justify-content: center;
   height: 2px;
   width: 98%;
-  background-color: rgb(205, 226, 243);
+  background-color: #dadada;
 }
 /* FOOTER */
 footer{
