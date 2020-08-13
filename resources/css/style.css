@@ -2,6 +2,7 @@
 .u_bold{font-weight: bold;}
 .u_light{font-weight: lighter;}
 .u_grey{color: #aba8ab;}
+.u_uppercase{text-transform: uppercase;}
   /* Mobile */
     @media only screen and (max-width: 749px){
       .u_mobilehidden{display: none;}
@@ -182,6 +183,7 @@ header div{
   #articles img{
     display: block;
     max-width: 100%;
+    height: auto;
     }
   #articles li{
     display: flex;
@@ -194,10 +196,124 @@ header div{
   #articles ul li:hover{
     background-color: #d3d3d3;
   }
+  .desktop:hover{
+    background-color: #d3d3d3;
+  }
 }
 /*START LEARNING */
+#start-learning{
+  display: block;
+  text-align: center;
+}
+#start-learning h1{
+  display: block;
+  padding: 32px 0 16px 0;
+  font-size: 25px;
+}
+
+.cardholder{
+  padding: 0 16px 32px 16px;
+}
+#start-learning .cards{
+  background-color: #d3d3d3;
+  padding: 16px 0 24px 16px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+#start-learning .cards:hover{
+  background-color: #aba8ab !important;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@media only screen and (min-width: 750px){
+  #start-learning{
+    background-color: #ececec;
+    padding: 32px 40px 0 40px;
+  }
+  .cardholder{
+    padding: 32px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cardholder img{
+    display: block;
+    max-width: 100%;
+  }
+  #start-learning .cards{
+    padding: 0px;
+    margin-bottom: 0;
+    background-color: #fff;
+    width: 33%;
+  }
+}
 
 /* THESIS EXHIBIT */
+#thesis-exhibit{
+  display: block;
+  width: 100%;
+  padding: 32px 0 32px 0;
+  text-align: center;
+  font-size: 25px;
+}
+.thesis-main{
+  display: flex;
+}
+#thesis video{
+  display: block;
+  max-width: 100%;
+}
+#reimagine{
+  padding: 24px 0 8px 0;
+}
+@media only screen and (min-width: 750px){
+  .videobox{
+    padding: 0 24px;
+  }
+  #thesis ul li{
+    display: flex;
+    align-items: center;
+  }
+  #thesis ul li img{
+    padding: 16px;
+  }
+  .mini{
+    width: 100%;
+    line-height: 25px;
+  }
+  .mini h3{
+    padding-bottom: 8px;
+  }
+
+  #thesis ul li:hover{
+    background-color: #d3d3d3;
+  }
+  .thesis-main .videobox:hover{
+    background-color: #d3d3d3;
+  }
+}
+/*
+  .card-text{
+    width: 65%;
+    line-height: 25px;
+  }
+  .card-text p{
+    padding: 8px 0;
+  }
+  #articles img{
+    display: block;
+    max-width: 100%;
+    }
+  #articles li{
+    display: flex;
+    align-items: center;
+  }
+  #articles ul li{
+    padding: 16px 16px;
+    border: 1px solid #d4d4d4;
+  }
+  */
 
 /* LINE */
 #line{
