@@ -233,7 +233,7 @@ header div{
     padding: 32px 40px 0 40px;
   }
   .cardholder{
-    padding: 32px;
+    padding: 32px 0 0 32px;
     margin: 0;
     display: flex;
     justify-content: space-evenly;
@@ -247,9 +247,10 @@ header div{
     max-width: 100%;
   }
   #start-learning .cards{
-    padding: 0;
+    padding: 0 32px 32px 0;
     margin-bottom: 0;
     width: 100%;
+    background-color: #ececec;
   }
   .cards-text{
     padding: 16px 16px 24px 16px;
