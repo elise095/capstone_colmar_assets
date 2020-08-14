@@ -30,7 +30,6 @@ a:visited{
 a:hover {
   color: #807a7a;
 }
-
 /* NAVBAR */
 header nav{
   box-sizing: border-box;
@@ -224,7 +223,6 @@ header div{
 }
 #start-learning .cards:hover{
   background-color: #aba8ab !important;
-  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 @media only screen and (min-width: 750px){
@@ -240,7 +238,7 @@ header div{
     flex-wrap: wrap;
   }
   .cards-link{
-    max-width: 260px;
+    max-width: 270px;
   }
   .cardholder img{
     display: block;
@@ -269,6 +267,9 @@ header div{
   }
   #start-learning .cards-text:hover{
     background-color: #d3d3d3 !important;
+  }
+  #start-learning .cards:hover{
+    background-color: #ececec !important;
   }
 }
 /* THESIS EXHIBIT */
