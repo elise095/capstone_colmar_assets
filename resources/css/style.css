@@ -268,6 +268,7 @@ header div{
   }
   #start-learning .cards-text:hover{
     background-color: #d3d3d3 !important;
+  }
 }
 /* THESIS EXHIBIT */
 #thesis-exhibit{
@@ -336,4 +337,4 @@ footer{
   footer a{
     padding-right: 16px;
   }
-}}
+}
