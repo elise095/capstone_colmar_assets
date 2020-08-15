@@ -237,9 +237,6 @@ header div{
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
-  .cards-link{
-    max-width: 270px;
-  }
   .cardholder img{
     display: block;
     max-width: 100%;
@@ -247,7 +244,7 @@ header div{
   #start-learning .cards{
     padding: 0 32px 32px 0;
     margin-bottom: 0;
-    width: 100%;
+    max-width: 280px;
     background-color: #ececec;
   }
   .cards-text{
@@ -309,9 +306,6 @@ header div{
     padding-bottom: 8px;
   }
   #thesis ul li:hover{
-    background-color: #d3d3d3;
-  }
-  .thesis-main .videobox:hover{
     background-color: #d3d3d3;
   }
 }
