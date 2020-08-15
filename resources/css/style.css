@@ -291,12 +291,16 @@ header div{
   .videobox{
     padding: 0 24px;
   }
-  #thesis ul li{
+ /* #thesis ul li{
     display: flex;
     align-items: center;
-  }
+  }*/
   #thesis ul li img{
     padding: 16px;
+  }
+  #thesis ul li a{
+    display: flex;
+    align-items: center;
   }
   .mini{
     width: 100%;
